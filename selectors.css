@@ -1,0 +1,51 @@
+header {
+    border: 1px solid cornflowerblue; 
+}
+
+.nav li {
+    display: inline;
+    margin: auto 3em;
+    text-decoration: none;
+}
+
+.disabled {
+    color: grey;
+}
+
+a.disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.redbk {
+    background-color: red;
+}
+
+.bluebk {
+    background-color: blue;
+}
+
+div.grandparent h4:last-child {
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.promo {
+    font-weight: strong;
+    color: gold;
+}
+
+input[type=text] {
+    font-size: 25px;
+}
